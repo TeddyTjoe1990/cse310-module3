@@ -12,12 +12,12 @@ df['YOY_Units'] = df['YOY_Units'].str.replace('%', '').astype(float)
 
 # Question 1: Average Unit Volume by Franchising
 avg_unit_volume = df.groupby('Franchising')['Unit_Volume'].mean()
-print("Rata-rata Unit Volume berdasarkan Franchising:")
+print("Average Unit Sales by Franchise:")
 print(avg_unit_volume)
 
 # Question 2: Top 5 restaurants by YOY_Units
 top_yoy_units = df[['Restaurant', 'YOY_Units']].sort_values(by='YOY_Units', ascending=False).head(5)
-print("\nTop 5 restoran berdasarkan pertumbuhan unit tahunan:")
+print("\nTop 5 Restaurants with the Highest Annual Unit Growth")
 print(top_yoy_units)
 
 # Visualization: Top 10 by YOY_Sales
