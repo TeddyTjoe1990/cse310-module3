@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns  # additional library for scatter plot visualization
 
 # Load dataset
 df = pd.read_csv("Future50.csv")
@@ -29,3 +30,18 @@ ax.set_xlabel('YOY Sales Growth (%)')
 ax.set_title('Top 10 Restaurants by YOY Sales Growth')
 st.subheader("📈 Sales Growth Chart (YOY Sales)")
 st.pyplot(fig)
+
+# Question 3: Correlation between YOY_Units and YOY_Sales
+st.subheader("3. Correlation Between Unit Growth and Sales Growth")
+
+# Calculate correlation
+correlation = df['YOY_Units'].corr(df['YOY_Sales'])
+st.write(f"Pearson Correlation: **{correlation:.2f}**")
+
+# Scatter plot
+fig2, ax2 = plt.subplots(figsize=(8, 5))
+sns.scatterplot(x='YOY_Units', y='YOY_Sales', data=df, ax=ax2, color='green')
+ax2.set_title('YOY Unit Growth vs YOY Sales Growth')
+ax2.set_xlabel('YOY Unit Growth (%)')
+ax2.set_ylabel('YOY Sales Growth (%)')
+st.pyplot(fig2)
