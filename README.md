@@ -1,56 +1,67 @@
-# cse310-module3
-Sprint 3 assignment - Make Restaurant Reviews Analysis using Python
+# 🍽️ Restaurant Reviews Analysis — Sprint 3 (CSE310 Module 3)
 
-# Overview
+Analyze restaurant reviews using Python and NLP techniques to uncover customer sentiment and preferences.
 
-As a software engineer, I’m continuously exploring ways to enhance my data analysis skills and apply them to real-world scenarios. In this project, I aimed to deepen my understanding of natural language processing (NLP) and sentiment analysis by examining restaurant reviews.
+---
 
-The dataset used in this project contains thousands of restaurant reviews, including review text, ratings, and other metadata. It was obtained from [Kaggle - Yelp Restaurant Reviews](https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset).
+## 📌 Overview
 
-The primary goal of this software is to analyze restaurant reviews to identify customer sentiment, popular cuisines, and key preferences expressed in the feedback. This helps in understanding what customers value most and how businesses can respond better to customer needs.
+As a software engineer, I constantly seek opportunities to sharpen my data analysis and machine learning skills. In this project, I focused on enhancing my understanding of **natural language processing (NLP)** by analyzing restaurant reviews.
 
-[Software Demo Video](http://youtube.link.goes.here)
+The dataset used contains thousands of real customer reviews, along with star ratings and other metadata. It was sourced from the [Kaggle Yelp Dataset](https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset).
 
-# Data Analysis Results
+This project aims to:
+- Perform **sentiment analysis** on reviews
+- Identify **frequently mentioned menu items**
+- Discover **what customers value most** in their dining experience
 
-**Key Questions and Findings:**
-- **What is the overall sentiment distribution of restaurant reviews?**  
-  → About 65% of the reviews were positive, 20% neutral, and 15% negative.
+📽️ **[Demo Video – See it in Action](http://youtube.link.goes.here)**
 
-- **What keywords are most frequently mentioned in positive reviews?**  
-  → Words like “delicious,” “friendly,” “quick,” and “cozy” appeared most often.
+---
 
-- **Do high-rated reviews correlate strongly with positive sentiment analysis?**  
-  → Yes, reviews rated 4–5 stars overwhelmingly aligned with positive sentiment scores.
+## 📊 Data Analysis Highlights
 
-- **Which cuisines or menu items are mentioned most frequently?**  
-  → Popular mentions included “sushi,” “tacos,” “pizza,” and “burgers.”
+### 🔎 Key Questions and Insights
 
-# Development Environment
+- **Do restaurants that use a franchise system have a higher average unit sales volume?**  
+  ✅ Different averages were obtained between franchise models
 
-**Tools Used:**
-- Jupyter Notebook
-- VS Code (for script testing)
-- GitHub for version control
+- **Which restaurants experienced the most unit growth in the last year (YOY_Units)?**  
+  ✅ List of the 5 fastest-expanding restaurants.
 
-**Languages and Libraries:**
-- **Python**: Main programming language
-- **pandas**: For data manipulation
-- **matplotlib & seaborn**: For data visualization
-- **TextBlob**: For sentiment analysis
-- **wordcloud**: To visualize popular words in reviews
-- **nltk**: For additional NLP processing (tokenization, stopwords)
+---
 
-# Useful Websites
+## 🧑‍💻 Development Environment
 
-* [Kaggle – Yelp Dataset](https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset)
-* [TextBlob Documentation](https://textblob.readthedocs.io/en/dev/)
-* [NLTK Documentation](https://www.nltk.org/)
-* [Matplotlib](https://matplotlib.org/)
-* [Seaborn](https://seaborn.pydata.org/)
+### ⚙️ Tools & Technologies
+- **IDE**: Visual Studio Code
+- **Version Control**: GitHub
+- **Web App**: Streamlit (optional extension)
 
-# Future Work
+### 📦 Languages & Libraries
+- `Python` – core development
+- `pandas` – data wrangling
+- `matplotlib` – charting and visualization
+- `nltk` – text processing (stopwords, tokenization)
 
-* Improve sentiment classification using VADER or Hugging Face transformers for better accuracy.
-* Add an interactive Streamlit web app to explore the data and visualizations.
-* Include geolocation analysis of restaurants and regional sentiment trends.
+---
+
+## 🌐 Resources & References
+
+- 📂 [Kaggle: Yelp Dataset](https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset)
+- 📘 [NLTK Official Docs](https://www.nltk.org/)
+- 📊 [Matplotlib Guide](https://matplotlib.org/)
+
+---
+
+## 🚀 Future Enhancements
+
+- 🔁 Use **VADER** or **transformers** (e.g. Hugging Face) for more accurate sentiment scoring  
+- 🌐 Build a **Streamlit web dashboard** for interactive exploration  
+- 🗺️ Add **geolocation filtering** to detect regional sentiment trends
+
+---
+
+## ✅ Status
+
+Project complete — but open for further improvements and deployment!
