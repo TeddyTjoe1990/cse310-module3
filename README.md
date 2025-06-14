@@ -11,6 +11,7 @@ As a software engineer, I constantly seek opportunities to sharpen my data analy
 The dataset used contains thousands of real customer reviews, along with star ratings and other metadata. It was sourced from the [Kaggle Yelp Dataset](https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset).
 
 This project aims to:
+
 - Perform **sentiment analysis** on reviews
 - Identify **frequently mentioned menu items**
 - Discover **what customers value most** in their dining experience
@@ -34,11 +35,13 @@ This project aims to:
 ## 🧑‍💻 Development Environment
 
 ### ⚙️ Tools & Technologies
+
 - **IDE**: Visual Studio Code
 - **Version Control**: GitHub
 - **Web App**: Streamlit (optional extension)
 
 ### 📦 Languages & Libraries
+
 - `Python` – core development
 - `pandas` – data wrangling
 - `matplotlib` – charting and visualization
@@ -56,9 +59,8 @@ This project aims to:
 
 ## 🚀 Future Enhancements
 
-- 🔁 Use **VADER** or **transformers** (e.g. Hugging Face) for more accurate sentiment scoring  
-- 🌐 Build a **Streamlit web dashboard** for interactive exploration  
-- 🗺️ Add **geolocation filtering** to detect regional sentiment trends
+- 🌐 Build a **Streamlit web dashboard** for interactive exploration
+
 
 ---
 
